@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container::before{
+    content: "A Resturent That";
+    width: 1200px;
+    height: 580px;
+    border-radius: 3%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 1200px;
+    height: 580px;
+    margin: 0 auto;
+    background-image: url("/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    position:relative;
+    border-radius: 3%;
+}
+.navbar{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    margin-right: -50px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 30px;
+}
+ul li a{
+    color:orange;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    background-color: bisque;
+
+}
+.order{
+    position: absolute;
+    right: -500px;
+    background-color:rgb(244, 109, 129);
+    padding: 5px 35px;
+    border: 2px solid black;
+}
+.order a{
+    color:aliceblue;
+ text-decoration: none;
+}
+.headingg{
+    position: absolute;
+    
+}
+h1{
+   position: absolute;
+    color: orange;
+    font-size: 40px;
+    top: 150px;
+    left: 287px;
+}
+button{
+    position: absolute;
+    top: 360px;
+    left: 350px;
+    background-color: orange;
+    color: aliceblue;
+    padding: 12px 30px;
+}
+.scroll{
+    position: absolute;
+    
+    top: 380px;
+    left: 929px;
+}
+.scroll img{
+    width: 120px;
+    height: 120px;
+}
